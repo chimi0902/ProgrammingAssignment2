@@ -33,7 +33,7 @@ cacheSolve <- function(x) {
         return(m)
     }
     data <- x$get()
-    
+    ## here we compute the matrix inverse
     m <- solve(data) 
     x$setsolve(m)
     m
