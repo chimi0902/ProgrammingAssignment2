@@ -1,5 +1,6 @@
 ## this function create the matrix object
-## the init matrix is a empty matrix 
+## Input: empty matrix 
+## Output: matrix objet 
 
 makeCacheMatrix <- function(x = matrix()) {
     ## m is the solve of the matrix which is initialisate at null
